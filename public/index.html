@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ANZ Administradores de Edificios: administración transparente, cercana y profesional de edificios y condominios.">
+  <title>ANZ | Administradores de Edificios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="ANZ inicio">
+        <span class="brand-mark">ANZ</span>
+        <span class="brand-name">ADMINISTRADORES<br><small>DE EDIFICIOS</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-pay" href="#pagos">Pagar gastos comunes <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> ADMINISTRACIÓN PROFESIONAL</span>
+        <h1>Una mejor forma<br>de <em>vivir en comunidad.</em></h1>
+        <p>Administramos edificios y condominios con transparencia, organización y una atención cercana a cada comunidad.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contacto">Solicitar asesoría <span>→</span></a>
+          <a class="btn btn-ghost" href="#servicios">Conoce nuestros servicios</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✓</span> Gestión responsable. Comunicación clara. Comunidades mejor cuidadas.</div>
+      </div>
+      <div class="hero-side-label">ANZ · GESTIÓN Y CONFIANZA</div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><span class="trust-icon">⌂</span><span><strong>Tu comunidad</strong><small>En buenas manos</small></span></div>
+        <div><span class="trust-icon">↗</span><span><strong>Transparencia</strong><small>Información clara</small></span></div>
+        <div><span class="trust-icon">◎</span><span><strong>Atención cercana</strong><small>Escuchamos y resolvemos</small></span></div>
+        <div><span class="trust-icon">▤</span><span><strong>Gestión ordenada</strong><small>Procesos responsables</small></span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="servicios">
+      <div class="section-heading">
+        <div><span class="eyebrow dark">QUÉ HACEMOS</span><h2>Administración que<br><em>genera tranquilidad.</em></h2></div>
+        <p>Nos ocupamos de la gestión diaria para que residentes, propietarios y comités puedan enfocarse en lo importante: vivir mejor.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-icon">▤</span><h3>Gestión financiera</h3><p>Control de gastos comunes, seguimiento de pagos, presupuestos e informes para la comunidad.</p><a href="#contacto">Consultar servicio <span>→</span></a></article>
+        <article class="service-card"><span class="service-icon">⌂</span><h3>Mantención y proveedores</h3><p>Coordinación de mantenciones, revisión de necesidades y seguimiento de trabajos en espacios comunes.</p><a href="#contacto">Consultar servicio <span>→</span></a></article>
+        <article class="service-card"><span class="service-icon">♧</span><h3>Convivencia y comunidad</h3><p>Apoyo en la comunicación con residentes y en la aplicación del reglamento de copropiedad.</p><a href="#contacto">Consultar servicio <span>→</span></a></article>
+        <article class="service-card"><span class="service-icon">▣</span><h3>Apoyo al comité</h3><p>Organización de antecedentes, coordinación de reuniones y acompañamiento en la gestión del edificio.</p><a href="#contacto">Consultar servicio <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-art">
+          <div class="art-building"><div class="building-top"></div><div class="building-windows"></div></div>
+          <div class="art-stamp"><span>ANZ</span><small>ADMINISTRACIÓN<br>CON PROPÓSITO</small></div>
+          <div class="art-caption">Cuidamos el lugar<br>que llamas hogar.</div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow dark">SOBRE ANZ</span>
+          <h2>Más que administrar.<br><em>Nos importa tu comunidad.</em></h2>
+          <p>En ANZ creemos que una buena administración se construye con orden, responsabilidad y una comunicación respetuosa. Trabajamos para que cada comunidad tenga información clara y una gestión orientada a sus necesidades.</p>
+          <ul class="check-list">
+            <li><span>✓</span> Comunicación directa y respetuosa</li>
+            <li><span>✓</span> Seguimiento de requerimientos</li>
+            <li><span>✓</span> Gestión responsable de recursos</li>
+          </ul>
+          <a class="btn btn-dark" href="#contacto">Conversemos sobre tu edificio <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="payment-section" id="pagos">
+      <div class="container payment-grid">
+        <div class="payment-copy">
+          <span class="eyebrow">PAGOS EN LÍNEA</span>
+          <h2>Paga tus gastos comunes<br><em>de forma simple.</em></h2>
+          <p>Completa los datos solicitados para iniciar tu pago en línea. El pago real estará disponible cuando la administración configure su cuenta de Mercado Pago.</p>
+          <div class="payment-safe"><span>♢</span><div><strong>Proceso protegido</strong><small>Los datos de tu tarjeta se ingresan en la plataforma de pago, no en esta página.</small></div></div>
+        </div>
+        <form class="payment-form" id="paymentForm">
+          <div class="form-title"><span>01 / PAGO</span><h3>Datos del pago</h3><p>Ingresa los datos asociados a tu unidad.</p></div>
+          <label for="payName">Nombre del propietario o residente</label>
+          <input id="payName" name="nombre" autocomplete="name" required placeholder="Nombre y apellido">
+          <div class="form-row">
+            <div><label for="payEmail">Correo electrónico</label><input id="payEmail" name="email" type="email" autocomplete="email" required placeholder="correo@ejemplo.cl"></div>
+            <div><label for="payUnit">Departamento / unidad</label><input id="payUnit" name="departamento" required placeholder="Ej. 504"></div>
+          </div>
+          <label for="payConcept">Concepto</label>
+          <select id="payConcept" name="concepto" required><option value="Gastos comunes">Gastos comunes</option><option value="Fondo de reserva">Fondo de reserva</option><option value="Otro cobro autorizado">Otro cobro autorizado</option></select>
+          <label for="payAmount">Monto a pagar (CLP)</label>
+          <div class="amount-wrap"><span>$</span><input id="payAmount" name="monto" type="number" min="1000" max="5000000" step="1" required placeholder="Ej. 85000"></div>
+          <button class="btn btn-primary btn-full" type="submit">Continuar al pago seguro <span>→</span></button>
+          <p class="form-message" id="paymentMessage" role="status" aria-live="polite"></p>
+          <small class="form-disclaimer">No ingreses aquí datos de tarjetas bancarias. El sitio no confirma pagos por sí solo.</small>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section container" id="contacto">
+      <div class="section-heading contact-heading">
+        <div><span class="eyebrow dark">HABLEMOS</span><h2>Tu edificio merece<br><em>una buena gestión.</em></h2></div>
+        <p>¿Buscas una administración para tu comunidad o necesitas hacer una consulta? Escríbenos y conversemos.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><span class="contact-icon">✉</span><div><small>ESCRÍBENOS</small><strong>Contacto por formulario</strong><p>Déjanos tus datos y te responderemos.</p></div></div>
+          <div class="contact-item"><span class="contact-icon">⌖</span><div><small>ÁREA DE ATENCIÓN</small><strong>Santiago y alrededores</strong><p>Confirma cobertura con nuestro equipo.</p></div></div>
+          <div class="contact-item"><span class="contact-icon">◷</span><div><small>ATENCIÓN</small><strong>Con cita coordinada</strong><p>Agenda una conversación según disponibilidad.</p></div></div>
+          <div class="contact-callout"><strong>¿Eres parte de un comité?</strong><p>Cuéntanos qué necesita tu comunidad y evaluaremos cómo podemos apoyarte.</p></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div><label for="contactName">Nombre completo</label><input id="contactName" name="nombre" autocomplete="name" required placeholder="Tu nombre"></div>
+            <div><label for="contactEmail">Correo electrónico</label><input id="contactEmail" name="email" type="email" autocomplete="email" required placeholder="tu@correo.cl"></div>
+          </div>
+          <label for="contactBuilding">Edificio o condominio (opcional)</label><input id="contactBuilding" name="edificio" placeholder="Nombre de tu comunidad">
+          <label for="contactMessage">¿En qué podemos ayudarte?</label><textarea id="contactMessage" name="mensaje" rows="5" required placeholder="Escribe tu consulta aquí..."></textarea>
+          <button class="btn btn-dark btn-full" type="submit">Enviar consulta <span>→</span></button>
+          <p class="form-message" id="contactMessageStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="closing-banner"><div class="container closing-content"><div><span class="eyebrow">ANZ ADMINISTRADORES DE EDIFICIOS</span><h2>Una comunidad bien gestionada<br>se construye en equipo.</h2></div><a class="btn btn-light" href="#contacto">Hablemos <span>→</span></a></div></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#inicio"><span class="brand-mark">ANZ</span><span class="brand-name">ADMINISTRADORES<br><small>DE EDIFICIOS</small></span></a>
+      <p>Gestión transparente y cercana para comunidades mejor cuidadas.</p>
+      <div class="footer-links"><a href="#servicios">Servicios</a><a href="#pagos">Pagos</a><a href="#contacto">Contacto</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> ANZ Administradores de Edificios</span><span>Administración responsable · Comunicación clara</span></div>
+  </footer>
+</body>
+</html>
